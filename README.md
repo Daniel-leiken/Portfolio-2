@@ -6,6 +6,15 @@ My personal front-end portfolio, built for the Noroff Portfolio 2 course assignm
 
 **Live site:** _coming soon_
 
+## Description
+
+The portfolio is a multipage React app with a home page and one article page per project.
+
+- **Home page** with an introduction, teaser cards for each project (thumbnail, title, short description and a "Read more" link) and an About me section
+- **Article pages** with the project title, short description, a share/copy link button, a screenshot with caption, links to the live site and the GitHub README (both open in a new tab) and a longer description
+- Responsive layout from mobile to desktop
+- All images are optimised webp files under 200 KB
+
 ## Built with
 
 - [React](https://react.dev/) 19
@@ -24,14 +33,30 @@ My personal front-end portfolio, built for the Noroff Portfolio 2 course assignm
 
 ## Getting started
 
+### Installing
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/Daniel-leiken/Portfolio-2.git
+   cd Portfolio-2
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Running
+
+Start the development server:
+
 ```bash
-git clone https://github.com/Daniel-leiken/Portfolio-2.git
-cd Portfolio-2
-npm install
 npm run dev
 ```
 
-Build for production with `npm run build`. The output goes to `dist/`.
+Then open http://localhost:5173. Build for production with `npm run build`. The output goes to `dist/`.
 
 ## Project structure
 
@@ -46,6 +71,10 @@ public/
 ```
 
 To add or edit a project, update `src/data/projects.js`.
+
+## Contributing
+
+This is a school project, so I'm not looking for code contributions. If you find a bug or have a suggestion, feel free to [open an issue](https://github.com/Daniel-leiken/Portfolio-2/issues). Pull requests are welcome too: fork the repo, create a branch for your change and open a pull request so the change can be reviewed.
 
 ## Contact
 
